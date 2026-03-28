@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Document</title>
+        <style>
+            #sekcja{
+                position: absolute;
+                left: 700px;
+                top: 150px;
+                background-color: inherit;
+                padding: 10px;
+            }
+            main{
+                position: relative;
+                width: 100%;
+            }
+            nav{
+                background-color: rgb(201, 255, 237);
+            }
+            #lewy{
+                background-color: rgb(230, 230, 184);
+                height: 66.5vh;
+                width: 50%;
+            }
+            #tlo{
+                display: flex;
+            }
+            nav{
+                display: flex;
+            }
+            .nav{
+                margin-left: 10%;
+                margin-right: 10%;
+                width: 15%;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+            }
+            #prawy{
+                width: 50%;
+            }
+            img{
+                width: 100%;
+                height: 66.5vh;
+            }
+            #logo{
+                height: 50px;
+                width: 50px;
+            }
+            a, .button{
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 6%;
+            }
+            button, select{
+                padding: 5px;
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav">
+                    <a href="">Strona główna</a>
+                    <a href="">O nas</a>
+                    <a href="">Usługi</a>
+                </div>
+                <div class="nav">
+                    <img src="HTML5_logo_and_wordmark.svg.png" alt="logo" id="logo">
+                </div>
+                <div class="nav">
+                    <button class="button">My Account</button>
+                    <button class="button">Log in</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="sekcja">
+                <h1>Usługi informatyczne</h1>
+                <p>Zapewniamy super szybkie usługi dla naszych klientów</p>
+                <button>Nasz cel</button>
+                <button>Pracuj z nami</button>
+                <select name="" id="">
+                    <option value="">Location</option>
+                </select>
+            </section>
+            <section id="tlo">
+                <div id="lewy">
+
+                </div>
+                <div id="prawy">
+                    <img src="watercolor-soft-earth-tones-background_23-2151155668.jpg" alt="tło">
+                </div>
+            </section>
+        </main>
+    </body>
+</head>
